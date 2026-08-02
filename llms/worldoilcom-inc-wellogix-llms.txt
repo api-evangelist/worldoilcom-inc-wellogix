@@ -1,0 +1,13 @@
+# WorldOil.com, Inc./Wellogix
+
+> Wellogix (originally incorporated as WorldOil.com, Inc.) was a Houston, Texas software company serving the upstream oil and gas industry, backed by Battery Ventures. Its hosted tools — WorkFlowNavigator, DynaMaps, DrillTeam, and FieldTeam — helped drilling engineers plan wells and let operators and service companies collaborate on and procure complex engineered services. The company is no longer active: wellogix.com has registered DNS but no responding web server (probed 2026-07-21), and no public API, developer portal, SDKs, or packages were found. The worldoil.com domain today belongs to Gulf Publishing's World Oil magazine, a separate, unrelated business.
+
+<!-- generated: 2026-07-21 | method: generated | source: apis.yml (API Evangelist enrichment pipeline) -->
+
+## APIs
+
+- No public APIs found for this company. wellogix.com is offline; probes of npm, PyPI, and GitHub found no first-party client libraries or repositories.
+
+## Profile
+
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/worldoilcom-inc-wellogix/refs/heads/main/apis.yml): Machine-readable company profile in the API Evangelist network

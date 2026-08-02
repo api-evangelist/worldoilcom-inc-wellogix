@@ -1,8 +1,27 @@
 aid: worldoilcom-inc-wellogix
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/worldoilcom-inc-wellogix.png
 name: WorldOil.com, Inc./Wellogix
-description: WorldOil.com, Inc./Wellogix is a company surfaced as a portfolio company of battery-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: Wellogix (originally incorporated as WorldOil.com, Inc.) was a Houston,
+  Texas software company serving the upstream oil and gas industry, backed by Battery
+  Ventures. Its hosted tools - including WorkFlowNavigator, DynaMaps, DrillTeam, and
+  FieldTeam - helped drilling engineers plan wells and let operators and service companies
+  collaborate on and procure complex engineered services, exchanging enterprise data
+  across companies. The company is no longer active as an operating software vendor;
+  wellogix.com still has DNS registered but no responding web server, and no public
+  API, developer portal, SDKs, or package registry artifacts were found. Note the
+  worldoil.com domain today belongs to Gulf Publishing's World Oil magazine, a separate,
+  unrelated business.
 url: https://raw.githubusercontent.com/api-evangelist/worldoilcom-inc-wellogix/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +29,36 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: inactive
+x-status-evidence: 'wellogix.com DNS resolves (register.com parking, A 205.178.189.129)
+  but HTTPS connection reset and HTTP timeout on 2026-07-21; no GitHub repos, npm,
+  or PyPI packages reference the company.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Oil and Gas
+- Energy
+- Software
+- Drilling
+- Procurement
+- Collaboration
 apis: []
+common:
+- name: Website (offline)
+  type: Website
+  url: http://wellogix.com
+- name: LLMs.txt
+  type: LLMsTxt
+  url: llms/worldoilcom-inc-wellogix-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
