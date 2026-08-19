@@ -33,7 +33,7 @@ x-status: inactive
 x-status-evidence: 'wellogix.com DNS resolves (register.com parking, A 205.178.189.129)
   but HTTPS connection reset and HTTP timeout on 2026-07-21; no GitHub repos, npm,
   or PyPI packages reference the company.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
